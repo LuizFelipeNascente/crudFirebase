@@ -1,0 +1,149 @@
+#menu-lateral {
+  height: auto;
+  overflow-y: auto;
+}
+
+#menu-lateral h6 {
+  color: #d3d3d3;
+  margin-bottom: 5px;
+  padding: 5px 0;
+}
+
+#menu-lateral li ul li a {
+  color: #fff
+}
+
+#menu-lateral li ul li a:hover {
+  background-color: #111
+}
+
+#menu-lateral .logout-link {
+  color: rgb(239, 62, 57);
+}
+
+@media (max-width: 767.98px) {
+  #menu-lateral {
+      position: fixed;
+      left: -100%;
+      top: 0;
+      width: 250px;
+      height: 100%;
+      z-index: 111;
+      background-color: #333;
+      transition: all 0.3s ease-in-out;
+      border-right: 2px solid #3d65ac;
+  }
+
+  #menu-lateral.show {
+      left: 0;
+  }
+}
+
+.btn-logout-top {
+  color: rgb(239, 62, 57) !important;
+  border-bottom: 2px solid rgb(239, 62, 57) !important;
+}
+
+.btn-logout-top:hover {
+  color: #FFF !important;
+  border-bottom: 2px solid #fff !important;
+}
+
+.bar {
+  background: #3d65ac;
+  background: linear-gradient(90deg, rgb(61, 101, 172) 0%, rgb(239, 62, 57) 100%);
+  padding: 2px;
+}
+
+.breadcrumb {
+  border: 1px solid #dedede;
+  background-color: #eee !important;
+  border-radius: 5px !important;
+  padding: 15px 10px !important;
+}
+
+/* _______________________________________________________________________ */
+
+/* Estilize a página de login como desejado */
+
+.login-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.botoes button {
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background: linear-gradient(90deg, rgb(61, 101, 172) 0%, rgb(239, 62, 57) 100%);
+}
+
+#historico {
+
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: justify;
+
+}
+
+#evolucao {
+
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: justify;
+
+}
+
+form button {
+  border-radius: 5px;
+}
+
+.mostra {
+
+}
+
+.mostra.hiden {
+  display: none;
+}
